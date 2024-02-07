@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_10">
+
+    <LinearLayout
+        android:id="@+id/id_ln_thongtin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_tv_thongtin"
+        android:layout_marginLeft="@dimen/layout_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_ten_khang_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/lichghinuoc_hdon_ten_khang"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_ma_khang_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/tab_caidat_ma_khang"
+            android:visibility="gone"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_dia_chi_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/lichghinuoc_diachi"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_dien_thoai_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/tab_caidat_dthoai"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_email_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/tab_caidat_email"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ln_thongtin_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_tv_thongtin"
+        android:layout_marginLeft="@dimen/layout_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_ten_khang_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/lichghinuoc_hdon_ten_khang"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_ma_khang_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/tab_caidat_ma_khang"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_dia_chi_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/lichghinuoc_diachi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_dien_thoai_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/tab_caidat_dthoai"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_email_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="@string/tab_caidat_email"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+    </LinearLayout>
+</LinearLayout>

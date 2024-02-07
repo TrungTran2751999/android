@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_lich_ghi_nuoc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent_tab"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_title" />
+        <LinearLayout
+            android:id="@+id/id_layoutcmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Chọn IDKH:"/>
+            <Spinner
+                android:id="@+id/id_spn_customergroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black">
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_30"
+            android:background="@drawable/border_bg_white"
+            android:clickable="true"
+            android:orientation="vertical">
+
+<!--            <TextView-->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_marginLeft="@dimen/layout_30"-->
+<!--                android:layout_marginTop="@dimen/layout_30"-->
+<!--                android:gravity="left"-->
+<!--                android:text="@string/lichghinuoc_chon_makh"-->
+<!--                android:visibility="gone"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/header"-->
+<!--                android:textSize="@dimen/textSize45" />-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/id_spn_khach_hang"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="@dimen/layout_30"-->
+<!--                android:layout_marginTop="@dimen/layout_40"></Spinner>-->
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_date_from"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_margin="@dimen/layout_30"
+                android:background="@drawable/border_bg_user"
+                android:enabled="true"
+                android:focusable="false"
+                android:hint="@string/lichghinuoc_date_from"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/layout_45"
+                />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_date_to"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_margin="@dimen/layout_30"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/lichghinuoc_date_to"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/layout_45"
+                android:enabled="true"
+                android:focusable="false"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+           />
+
+            <Button
+                android:id="@+id/id_btn_timkiem"
+                android:layout_width="@dimen/layout_400"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/layout_30"
+                android:background="@drawable/border_bg_blue"
+                android:text="@string/lichghinuoc_btn_search"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize40"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/id_lv_list_ghi_nuoc"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/layout_30"
+            android:background="@drawable/border_bg_white"
+            android:orientation="vertical"></ListView>
+        <!--android:divider="@null"-->
+        <!--android:dividerHeight="0dp"-->
+
+    </LinearLayout>
+
+</FrameLayout>

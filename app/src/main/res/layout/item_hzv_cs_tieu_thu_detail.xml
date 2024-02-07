@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/id_ly_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_tv_ky_title"
+            style="@style/CustomTextViewTitle_small"
+            android:text="@string/lichghinuoc_cs_ky" />
+
+        <TextView
+            android:id="@+id/id_tv_so_cto_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_so_cto" />
+
+        <TextView
+            android:id="@+id/id_tv_ngay_dky_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_ngay_dky" />
+
+        <TextView
+            android:id="@+id/id_tv_ngay_cky_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_ngay_cky" />
+
+        <TextView
+            android:id="@+id/id_tv_cs_cu_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_cu" />
+
+        <TextView
+            android:id="@+id/id_tv_cs_moi_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_moi" />
+
+        <TextView
+            android:id="@+id/id_tv_sluong_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_sluong" />
+
+        <TextView
+            android:id="@+id/id_tv_hsnhan_title"
+            style="@style/CustomTextViewTitle"
+            android:text="@string/lichghinuoc_cs_hsnhan" />
+
+        <TextView
+            android:id="@+id/id_tv_bcso_title"
+            style="@style/CustomTextViewTitle_small"
+            android:text="@string/lichghinuoc_cs_bcs" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ly_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_tv_ky_detail"
+            style="@style/CustomTextViewDetail_small"
+            android:text="@string/lichghinuoc_cs_ky" />
+
+        <TextView
+            android:id="@+id/id_tv_so_cto_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_so_cto" />
+
+        <TextView
+            android:id="@+id/id_tv_ngay_dky_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_ngay_dky" />
+
+        <TextView
+            android:id="@+id/id_tv_ngay_cky_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_ngay_cky" />
+
+        <TextView
+            android:id="@+id/id_tv_cs_cu_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_cu" />
+
+        <TextView
+            android:id="@+id/id_tv_cs_moi_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_moi" />
+
+        <TextView
+            android:id="@+id/id_tv_sluong_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_sluong" />
+
+        <TextView
+            android:id="@+id/id_tv_hsnhan_detail"
+            style="@style/CustomTextViewDetail"
+            android:text="@string/lichghinuoc_cs_hsnhan" />
+
+        <TextView
+            android:id="@+id/id_tv_bcso_detail"
+            style="@style/CustomTextViewDetail_small"
+            android:text="@string/lichghinuoc_cs_bcs" />
+
+    </LinearLayout>
+</LinearLayout>

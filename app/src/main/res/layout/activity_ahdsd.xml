@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_hdsd"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/id_ly_splashmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ly_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/intro_bottom_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/layout_10">
+
+            <ImageView
+                android:layout_width="@dimen/layout_90"
+                android:layout_height="@dimen/layout_90"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/phoneicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:shadowColor="@color/white"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="2"
+                android:text="@string/hotline"
+                android:textColor="@color/red"
+                android:textSize="@dimen/textSize50"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/layout_50"
+                android:gravity="center_vertical|right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:gravity="center_vertical|right"
+                    android:text="@string/intro_hotro_dichvu_nuoc"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize50"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

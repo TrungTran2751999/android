@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_ly_splashmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_text"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_100"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="@dimen/layout_275"
+            android:layout_height="@dimen/layout_275"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher512_text" />
+<!--    <ImageView
+        android:layout_width="@dimen/layout_225"
+        android:layout_height="@dimen/layout_225"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher512" />
+
+    <ImageView
+        android:layout_width="@dimen/layout_275"
+        android:layout_height="@dimen/layout_45"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/hue_waco_text" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/layout_100"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/layout_250"
+            android:layout_height="@dimen/layout_250"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher512" />
+
+
+        <TextView
+            android:id="@+id/id_tv_cty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:shadowDx="2"
+            android:shadowDy="-2"
+            android:shadowRadius="15"
+            android:shadowColor="@color/white"
+            android:text="@string/splash_cty"
+            android:textColor="@color/splash_cty"
+            android:textSize="@dimen/textSize70"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id_tv_title1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:shadowDx="2"
+            android:shadowDy="-2"
+            android:shadowRadius="15"
+            android:shadowColor="@color/white"
+            android:text="@string/splash_title1"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textSize70"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/layout_250"/>
+
+        <TextView
+            android:id="@+id/id_tv_title2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:shadowDx="2"
+            android:shadowDy="-2"
+            android:shadowRadius="15"
+            android:shadowColor="@color/white"
+            android:text="@string/splash_title2"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textSize70"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

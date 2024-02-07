@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_thongbao_list"
+    android:layout_width="fill_parent"
+    android:clickable="true"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical" >
+
+        <include layout="@layout/header_title" />
+
+        <LinearLayout
+            android:id="@+id/id_layoutcmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Chọn IDKH:"/>
+            <Spinner
+                android:id="@+id/id_spn_customergroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black">
+            </Spinner>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/id_lv_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/layout_45"
+            android:choiceMode="singleChoice"
+            android:gravity="center"
+            android:listSelector="#00000000"/>
+    </LinearLayout>
+
+</FrameLayout>

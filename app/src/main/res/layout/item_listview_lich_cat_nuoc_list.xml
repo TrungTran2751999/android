@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="@dimen/layout_30"
+    android:background="@drawable/border_bg_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_10">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/layout_15"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_ID_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_id"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_ma_lo_trinh_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_malotrinh"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_makv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_makv"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_NgayBatDau_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_ngaybatdau"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_GioBatDau_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_giobatdau"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_PhutBatDau_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_phutbatdau"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_NgayKetThuc_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_ngayketthuc"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_GioKetThuc_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_gioketthuc"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_PhutKetThuc_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_phutketthuc"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_LyDo_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_lydo"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/layout_15"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_ID_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_id"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_ma_lo_trinh_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_malotrinh"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_makv_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_makv"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_NgayBatDau_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_ngaybatdau"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_GioBatDau_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_giobatdau"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_PhutBatDau_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_phutbatdau"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_NgayKetThuc_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_ngayketthuc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_GioKetThuc_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_gioketthuc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_PhutKetThuc_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_phutketthuc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_LyDo_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichcat_nuoc_lydo"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+    </LinearLayout>
+</LinearLayout>

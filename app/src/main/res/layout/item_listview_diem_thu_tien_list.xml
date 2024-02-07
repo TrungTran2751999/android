@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_250"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="@dimen/layout_30"
+    android:background="@drawable/border_bg_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_10">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layout_250"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/layout_15"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_loai"
+            android:visibility="gone"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_dthoai"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_dia_chi_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_diachi"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_tgian_lviec_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_tgian_lviec"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_makhuvuc"
+            android:visibility="gone"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_ngay_thu"
+            android:visibility="gone"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_diem_gdich"
+            android:visibility="gone"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize35" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/layout_250"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/layout_30"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_madiemthu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:visibility="gone"
+            android:text="@string/lichghinuoc_loai"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_tenquay_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_dthoai"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_dia_chi_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_diachi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_tgian_lviec_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_tgian_lviec"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_makhuvuc_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_makhuvuc"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_kinhdo_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_ngay_thu"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+        <TextView
+            android:id="@+id/id_tv_vido_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_diem_gdich"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize35" />
+
+
+    </LinearLayout>
+</LinearLayout>

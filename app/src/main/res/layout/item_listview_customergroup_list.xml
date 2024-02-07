@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/id_customergroup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/id_cb_tthai_detail"
+            style="@style/CustomTextViewDetail"
+            android:clickable="false"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/layout_90"
+            android:gravity="center"
+            android:focusable="false"
+            android:text="" />
+        <TextView
+            android:id="@+id/id_idkh_detail"
+            style="@style/CustomTextViewDetail_small"
+            android:layout_width="@dimen/layout_200"
+            android:focusable="false"
+            android:text="@string/tab_caidat_customergroup_idkh" />
+
+        <TextView
+            android:id="@+id/id_tv_dcld_detail"
+            style="@style/CustomTextViewDetail_small"
+            android:layout_width="@dimen/layout_400"
+            android:focusable="false"
+            android:text="@string/tab_caidat_customergroup_dcld" />
+
+        <TextView
+            android:id="@+id/id_tv_tenkh_detail"
+            style="@style/CustomTextViewDetail"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:text="@string/tab_caidat_customergroup_tenkh" />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

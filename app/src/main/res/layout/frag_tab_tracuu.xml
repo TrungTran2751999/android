@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_tracuu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_title" />
+
+        <GridView
+            android:id="@+id/id_grid_task"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/layout_45"
+            android:choiceMode="singleChoice"
+            android:gravity="center"
+            android:scrollbars="none"
+            android:horizontalSpacing="@dimen/layout_50"
+            android:listSelector="#00000000"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="@dimen/layout_50" />
+    </LinearLayout>
+
+</FrameLayout>

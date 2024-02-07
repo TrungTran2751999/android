@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_dialog_bcsc_ng"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:splitMotionEvents="false">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:text="THÔNG BÁO"
+        android:textAlignment="center"
+        android:textColor="#F3EFEF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/id_content_dialog_bcsc_ng"
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="11dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_btn_close_bcsc_ng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_bg_default"
+            android:text="ĐÓNG"
+            android:textColor="#FEFEFE"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_btn_call_bcsc_ng"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_bg_red"
+            android:text="GỌI TỔNG ĐÀI"
+            android:textColor="#FEFEFE"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

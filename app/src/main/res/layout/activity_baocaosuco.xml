@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_baocaosuco"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:id="@+id/id_ly_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="8.8">
+
+            <include layout="@layout/header_title" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_suco"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_200"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/text_nhap_suco"
+                android:inputType="textCapSentences|textNoSuggestions|textMultiLine"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/layout_45" />
+
+            <LinearLayout
+                android:id="@+id/id_ly_map_location_x"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/layout_25"
+                android:layout_gravity="center_vertical"
+                android:visibility="visible">
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="@dimen/layout_60"
+                    android:layout_height="@dimen/layout_60"
+                    android:src="@drawable/map_mark_ic_red"/>
+                <TextView
+                    android:id="@+id/id_tv_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/layout_15"
+                    android:layout_marginLeft="@dimen/layout_25"
+                    android:text=""
+                    android:textColor="@color/header"
+                    android:textSize="@dimen/layout_45" />
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/id_ly_group"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/layout_10"
+                        android:gravity="bottom"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <com.huewaco.cskh.ui.CustomListviewGCS
+                            android:id="@+id/id_lv_list_suco"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/layout_25"
+                            android:background="@color/transparent"
+                            android:divider="@color/transparent"
+                            android:orientation="vertical" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bg_grey"
+            android:layout_weight="1.2"
+            android:padding="@dimen/layout_10">
+
+            <Button
+                android:id="@+id/id_btn_send_bcsc_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_bg_default"
+                android:text="@string/bcsc_btn_guisuco"
+                android:textColor="@color/white2"
+                android:textSize="@dimen/textSize35"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/layout_20"
+                android:paddingRight="@dimen/layout_20"
+                android:drawableLeft="@android:drawable/ic_menu_upload"
+                android:layout_marginRight="@dimen/layout_40"/>
+
+            <Button
+                android:id="@+id/id_btn_call_bcsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_bg_red"
+                android:text="@string/bcsc_btn_callsuco"
+                android:textColor="@color/white2"
+                android:textSize="@dimen/textSize35"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/layout_20"
+                android:paddingRight="@dimen/layout_20"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:layout_marginLeft="@dimen/layout_40"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

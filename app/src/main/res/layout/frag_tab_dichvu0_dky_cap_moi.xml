@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_dky_cap_moi"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_title" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/layout_25">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/border_bg_white"
+                android:orientation="vertical"
+                android:padding="@dimen/layout_30">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_dichvu_dangky_capmoi_dausao"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/textSize35" />
+                <TextView
+                    android:id="@+id/id_tv_dv_loaiyeucau"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_dichvu_dangky_capmoi_loaiyeucau"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize45"
+                    android:textStyle="bold"/>
+                <RadioGroup
+                    android:id="@+id/id_rg_dv_loaiyeucau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/id_rb_dv_yeucaulapdatnuoc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_dichvu_dangky_capmoi_yeucaulapdatnuoc"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize45" />
+
+                <RadioButton
+                    android:id="@+id/id_rb_dv_yeucaulapdatnuocnganhan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_dichvu_dangky_capmoi_yeucaulapdatnuocmoi"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize45" />
+
+                              </RadioGroup>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:text="@string/tab_dichvu_dangky_capmoi_chinhanhkhuvuc"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textSize45" />
+
+
+
+                <Spinner
+                    android:id="@+id/id_spn_dv_chinhanhkhuvuc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black">
+                   </Spinner>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:text="@string/tab_dichvu_dangky_capmoi_quanhuyen"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textSize45" />
+
+                <Spinner
+                    android:id="@+id/id_spn_dv_quanhuyen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    ></Spinner>
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:text="@string/tab_dichvu_dangky_capmoi_phuongxa"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textSize45" />
+
+                <Spinner
+                    android:id="@+id/id_spn_dv_phuongxa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                ></Spinner>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+            >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_dichvu_dangky_capmoi_thongtinkhachhang"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:layout_marginBottom="@dimen/layout_20"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="@dimen/textSize45" />
+
+                <Spinner
+                    android:id="@+id/id_spn_dv_loaikhachhang"
+                    android:visibility="gone"
+                    android:layout_width="@dimen/layout_300"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    ></Spinner>
+            </RelativeLayout>
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_dv_ten_khang"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/layout_120"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_dangky_capmoi_khang"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey_ori"
+                    android:textSize="@dimen/layout_45" />
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_dv_so_nha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/layout_120"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_dangky_capmoi_sonha"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey_ori"
+                    android:textSize="@dimen/layout_45" />
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_dv_dpho"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/layout_120"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_dangky_capmoi_dpho"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey_ori"
+                    android:textSize="@dimen/layout_45" />
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_dv_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/layout_120"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_dangky_capmoi_email"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey_ori"
+                    android:textSize="@dimen/layout_45" />
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_dv_sdt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/layout_120"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_dangky_capmoi_dthoai"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey_ori"
+                    android:textSize="@dimen/layout_45" />
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_noidung"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/layout_120"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_dangky_capmoi_ndungycau"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey_ori"
+                    android:textSize="@dimen/layout_45" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/id_tv_title_maudon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:text="@string/tab_dichvu_dangky_capmoi_maudon"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textSize45" />
+                <Button
+                    android:id="@+id/id_btn_dv_taive"
+                    android:layout_width="@dimen/layout_100"
+                    android:layout_height="@dimen/layout_100"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:layout_marginLeft="@dimen/layout_10"
+                    android:background="@drawable/ic_export" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/id_btn_close_dialog_bcsc_ng"
+                    android:layout_width="@dimen/layout_225"
+                    android:layout_height="@dimen/layout_100"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/layout_20"
+                    android:layout_marginBottom="@dimen/layout_20"
+                    android:textSize="@dimen/textSize40"
+                    android:text="@string/tab_dichvu_dangky_capmoi_dangky"
+                    android:background="@drawable/ic_dangnhap" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

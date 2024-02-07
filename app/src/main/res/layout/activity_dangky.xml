@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_ttud"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent_grey">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/layout_275"
+            android:layout_height="@dimen/layout_275"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher512_text"
+            android:layout_marginTop="@dimen/layout_100"/>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom|center"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_20"
+                android:padding="@dimen/layout_30"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize65"
+                    android:visibility="gone"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/dangnhap_kichhoatungdung"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:textSize="@dimen/textSize35"
+                    android:padding="@dimen/layout_20"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/border_bg_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/dangnhap_thongbao_dangnhap_bang_idkh"/>
+                <LinearLayout
+                    android:id="@+id/id_ly_view_tt"
+                    android:layout_width="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/id_edt_ma_kh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_nhap_makh"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+                    <EditText
+                        android:id="@+id/id_edt_username"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_nhap_username"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+
+                    <EditText
+                        android:id="@+id/id_edt_user_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_nhap_password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+
+                    <EditText
+                        android:id="@+id/id_edt_user_confirmpassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_nhap_lai_password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/id_ly_view_dangky"
+                    android:layout_width="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/layout_100">
+
+                    <Button
+                        android:id="@+id/id_btn_dangky"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/ic_dangnhap"
+                        android:padding="@dimen/layout_15"
+                        android:text="@string/login_btn_dangky"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textSize50"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

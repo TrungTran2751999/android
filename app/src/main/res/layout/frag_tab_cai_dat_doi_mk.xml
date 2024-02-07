@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_thaydoi_matkhau"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_title" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_25"
+            android:background="@drawable/border_bg_white"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_30">
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_mk_cu"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_20"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/tab_caidat_mat_khau_cu"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey_ori"
+                android:textSize="@dimen/layout_45" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_mk_moi"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_20"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/tab_caidat_mat_khau_moi"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey_ori"
+                android:textSize="@dimen/layout_45" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_re_mk_moi"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_20"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/tab_caidat_nhap_lai_mat_khau_moi"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textColorHint="@color/grey_ori"
+                android:textSize="@dimen/layout_45" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/id_btn_close_dialog_bcsc_ng"
+                android:layout_width="@dimen/layout_400"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/layout_30"
+                android:background="@drawable/border_bg_blue"
+                android:text="@string/tab_caidat_btn_dongy"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize40"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/id_btn_cancel"
+                android:layout_width="@dimen/layout_400"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/layout_30"
+                android:background="@drawable/border_bg_blue"
+                android:text="@string/tab_caidat_btn_boqua"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize40"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

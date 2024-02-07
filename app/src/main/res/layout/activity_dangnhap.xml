@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_dangnhap"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/layout_100"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="@dimen/layout_275"
+                    android:layout_height="@dimen/layout_275"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_launcher512_text" />
+<!--                <ImageView
+                    android:layout_width="@dimen/layout_225"
+                    android:layout_height="@dimen/layout_225"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_launcher512" />
+
+                <ImageView
+                    android:layout_width="@dimen/layout_275"
+                    android:layout_height="@dimen/layout_45"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/hue_waco_text" />-->
+
+                <TextView
+                    android:id="@+id/id_tv_thongbao"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/layout_40"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="@string/dangnhap_thongbao"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize45"
+                    android:background="@drawable/border_bg_white"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/layout_40"
+                    android:layout_marginRight="@dimen/layout_40"
+                    android:layout_marginTop="@dimen/layout_20"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/id_edt_user"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_user"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+
+                    <EditText
+                        android:id="@+id/id_edt_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_password"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:inputType="textPassword"
+
+                        android:textSize="@dimen/layout_45" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/id_btn_dangnhap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/layout_30"
+                    android:background="@drawable/ic_dangnhap"
+                    android:padding="@dimen/layout_15"
+                    android:text="@string/login_btn_dangnhap"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize50"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="@dimen/layout_30"
+                android:gravity="top|center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/id_btn_reset_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="@dimen/layout_15"
+                    android:text="@string/dangnhap_reset_password"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize40"
+                    android:textStyle="normal"
+                    android:background="@null"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="@dimen/layout_30"
+                android:gravity="bottom|center"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/id_btn_dangnhap_sdt_mkh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/tab_home"
+                    android:padding="@dimen/layout_15"
+                    android:text="@string/dangnhap_sdt_makh"
+                    android:textAllCaps="false"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textSize40"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+</FrameLayout>

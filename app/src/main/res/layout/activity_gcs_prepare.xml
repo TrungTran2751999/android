@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white2">
+        <include layout="@layout/header_title" />
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/layout_20"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/border_just_color"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <TextView
+                            android:id="@+id/id_tv_ngay_hien_tai"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/gcs_pre_ngayhientai"
+                            android:textColor="#4092B3"
+                            android:textSize="@dimen/textSize55"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/layout_20"
+                        android:background="@drawable/border_just_color"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <TextView
+                            android:id="@+id/id_tv_name_addr_kh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/gcs_pre_name_addr"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textSize55"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/layout_20"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginRight="@dimen/layout_10"
+                            android:layout_weight="1"
+                            android:background="@drawable/border_just_color"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/pd_gcs">
+
+                            <TextView
+                                android:id="@+id/id_tv_kighi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/gcs_pre_kyghi"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/layout_10"
+                            android:layout_weight="1"
+                            android:background="@drawable/border_just_color"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/id_tv_trangthai"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/red"
+                                android:gravity="center"
+                                android:padding="@dimen/pd_gcs"
+                                android:text="@string/gcs_pre_trangthai"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/layout_20"
+                        android:background="@drawable/border_just_color"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <TextView
+                            android:id="@+id/id_tv_mdsd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/gcs_pre_mdsd"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textSize55" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/layout_20"
+                        android:background="@drawable/border_just_color"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/layout_10"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="@dimen/pd_gcs">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/gcs_pre_kytruoc"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+
+                            <TextView
+                                android:id="@+id/id_tv_kytruoc"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/gcs_pre_kytruoc"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/layout_10"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/layout_10"
+                                android:layout_weight="1"
+                                android:background="@drawable/border_just_color"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="@dimen/pd_gcs">
+
+                                <TextView
+                                    android:id="@+id/id_tv_matt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:text="@string/gcs_pre_kytruoc"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/textSize55"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/layout_10"
+                                android:layout_weight="1"
+                                android:background="@drawable/border_just_color"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="@dimen/pd_gcs">
+
+                                <TextView
+                                    android:id="@+id/id_tv_chiso_kytruoc"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:text="@string/gcs_pre_kytruoc"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/textSize55"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/border_just_color"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/layout_10"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:padding="@dimen/pd_gcs">
+
+                            <TextView
+                                android:id="@+id/id_tv_thanghientai"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/gcs_pre_thanghientai"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/layout_10"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/layout_10"
+                                android:layout_weight="1"
+                                android:background="@drawable/border_just_color"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:padding="@dimen/pd_gcs">
+
+                                <TextView
+                                    android:id="@+id/id_tv_chiso_thanghientai"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="left"
+                                    android:text="@string/gcs_pre_kytruoc"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/textSize55"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical">
+
+                    <com.customview.edittext.CustomEditText
+                        android:id="@+id/id_edt_gcs_hientai"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_170"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/layout_40"
+                        android:background="@drawable/border_bg_gcs_hientai"
+                        android:gravity="center"
+                        android:hint="@string/gcs_pre_nhapchisohientai"
+                        android:imeOptions="actionDone"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/textSize75" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/layout_40"
+                        android:background="#A5D4E4" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/gcs_bg_color_common"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:gravity="left"
+                                android:text="@string/gcs_pre_tongtien"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/id_tv_tongtien_number"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:gravity="right"
+                                android:text="@string/gcs_pre_tongtien"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/grey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/gcs_bg_color_common"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <TextView
+                            android:id="@+id/id_tv_tien_chu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:text="@string/gcs_pre_bangchu"
+                            android:textColor="@color/red"
+                            android:textSize="@dimen/textSize55" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/border_just_color"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <TextView
+                            android:id="@+id/id_tv_so_didong"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:gravity="left"
+                            android:text="@string/gcs_pre_didong"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textSize55" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/gcs_bg_color_common"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/pd_gcs">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:gravity="left"
+                                android:text="@string/gcs_pre_hinhanh"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/textSize55" />
+
+                            <ImageView
+                                android:id="@+id/id_img_gcs_img"
+                                android:layout_width="@dimen/layout_80"
+                                android:layout_height="@dimen/layout_80"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="@dimen/layout_25"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/background" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:gravity="center_vertical|right"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/id_btn_get_img"
+                                android:layout_width="26dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="@dimen/layout_25"
+                                android:background="@android:drawable/ic_menu_camera" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical">
+                    <Button
+                        android:id="@+id/id_btn_send_gcs_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:background="@drawable/border_bg_blue"
+                        android:padding="@dimen/layout_30"
+                        android:text="@string/gcs_pre_gui_dulieu"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textSize40"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+</LinearLayout>

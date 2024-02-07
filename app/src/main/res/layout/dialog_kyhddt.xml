@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_dialog_bcsc_ng"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:splitMotionEvents="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/imageView_close"
+            android:layout_width="@dimen/layout_50"
+            android:layout_height="@dimen/layout_50"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@drawable/ic_cancel1" />
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#D13030"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize45"
+        android:text="@string/tab_dichvu_hddt_signrnotice">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.customview.edittext.CustomEditText
+            android:id="@+id/id_verifycode"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/penRoyalBlue"
+            android:textSize="@dimen/textSize55"
+            android:textStyle="bold"
+            android:background="@color/white"/>
+    </LinearLayout>
+
+
+
+    <View
+        android:id="@+id/id_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="@dimen/layout_25"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_btn_close_dialog_bcsc_ng"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/layout_130"
+            android:layout_margin="@dimen/layout_20"
+            android:layout_weight="1"
+            android:background="@drawable/btn_text1"
+            android:text="Xác nhận"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize45"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_btn_goi_tong_dai_bcsc_ng"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/layout_130"
+            android:layout_margin="@dimen/layout_20"
+            android:layout_weight="1"
+            android:background="@drawable/btn_text1"
+            android:text="Gửi lại mã"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize45"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

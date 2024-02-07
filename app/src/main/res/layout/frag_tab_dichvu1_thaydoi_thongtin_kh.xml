@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_thaydoi_thongtin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical">
+        android:layout_margin="@dimen/layout_25"
+
+        <include layout="@layout/header_title" />
+
+        <!--        <ScrollView-->
+        <!--            android:layout_width="fill_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:scrollbars="none"-->
+        <!--            android:layout_margin="@dimen/layout_25">-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_bg_white"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_30">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:text="@string/dangnhap_nhap_username"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize35" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:text="@string/idkh"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_tv_username"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_90"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:layout_marginRight="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/dangnhap_nhap_username"
+                    android:padding="@dimen/layout_15"
+                    android:text=""
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/layout_45" />
+
+                <TextView
+                    android:id="@+id/id_tv_idkh"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_90"
+                    android:layout_marginLeft="@dimen/layout_10"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/idkh"
+                    android:padding="@dimen/layout_15"
+                    android:text=""
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/layout_45" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_20"
+                android:text="@string/tab_dichvu_thaydoithongtin_tenkh"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize35" />
+            <TextView
+                android:id="@+id/id_tv_tenkh"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_90"
+                android:layout_marginTop="@dimen/layout_10"
+                android:background="@drawable/border_bg_edit"
+                android:hint="@string/tab_dichvu_thaydoithongtin_tenkh"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="@dimen/layout_30"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:text="@string/tab_dichvu_thaydoithongtin_dtlienhe"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize35" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:text="@string/tab_dichvu_thaydoithongtin_email"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize35" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_dtlienhe"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_90"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:layout_marginRight="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_thaydoithongtin_dtlienhe"
+                    android:inputType="phone"
+                    android:padding="@dimen/layout_15"
+                    android:text=""
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/layout_45" />
+
+                <com.customview.edittext.CustomEditText
+                    android:id="@+id/id_edt_email"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_90"
+                    android:layout_marginLeft="@dimen/layout_10"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:layout_weight="1"
+                    android:background="@drawable/border_bg_edit"
+                    android:hint="@string/tab_dichvu_thaydoithongtin_email"
+
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/layout_45" />
+            </LinearLayout>
+
+
+            <!---->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_20"
+                android:text="@string/tab_dichvu_thaydoithongtin_diachi"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize35" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_tv_diachi"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/layout_90"
+                    android:layout_weight="8"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/layout_10"
+                    android:background="@drawable/border_bg_user"
+                    android:hint="@string/tab_dichvu_thaydoithongtin_diachi"
+                    android:padding="@dimen/layout_15"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/layout_45" />
+
+                <Button
+                    android:id="@+id/id_btn_close_dialog_bcsc_ng"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="@dimen/layout_10"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="@dimen/layout_15"
+                    android:background="@drawable/btn_text1_normal"
+                    android:text="LƯU" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/id_btn_registernotification"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_130"
+                android:layout_marginTop="@dimen/layout_20"
+
+                android:background="@drawable/btn_text1"
+                android:text="ĐĂNG KÝ NHẬN THÔNG BÁO"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize45"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/id_lv_list_customergroup_ln"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/layout_50"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/id_customergroup_title"
+                    layout="@layout/item_hzv_customergroup_title" />
+
+                <ListView
+                    android:id="@+id/id_lv_list_customergroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:descendantFocusability="blocksDescendants"
+                    android:divider="@null"
+                    android:dividerHeight="0dp"
+                    android:orientation="vertical"></ListView>
+            </LinearLayout>
+        </LinearLayout>
+        <!--        </ScrollView>-->
+    </LinearLayout>
+
+</FrameLayout>

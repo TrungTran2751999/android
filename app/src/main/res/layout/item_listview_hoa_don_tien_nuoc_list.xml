@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_10">
+
+    <LinearLayout
+        android:id="@+id/id_ln_mb_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/layout_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_tv_mb_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_ten_madb"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/id_tv_idkh_detail_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_ten_idkh"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_nam_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_nam"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_dia_chi_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_thang"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_chisodau_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_chisodau"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_chisocuoi_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_chisocuoi"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_kluongtthuttien_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_kluongthuTinhhTien"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh1_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh1"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh2_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh2"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh3_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh3"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh4_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh4"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sn_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sn"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3kd_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3kd"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3nd_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3nd"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh1cu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh1cu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh2cu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh2cu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh3cu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh3cu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh4cu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh4cu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sncu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sncu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3kdcu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3kdcu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3ndcu_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3ndcu"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tiennuoc_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tiennuoc"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tienphitn_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tienphitn"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tienphimt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tienphimt"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tienthue_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tienthue"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tongtien_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tongtien"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_datra_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_15"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_datra"
+            android:textColor="@color/header"
+            android:textSize="@dimen/textSize45" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_ln_thongtin_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/layout_30"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/id_tv_mb_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_ten_madb"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/id_tv_idkh_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_ten_idkh"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_nam_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_nam"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_thang_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_thang"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_chisodau_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_chisodau"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_chisocuoi_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_chisocuoi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_kluongtthuttien_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_kluongthuTinhhTien"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh1_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh2_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh3_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh4_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+
+        <TextView
+            android:id="@+id/id_tv_m3sn_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3kd_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3kd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+
+        <TextView
+            android:id="@+id/id_tv_m3nd_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3nd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh1cu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh1cu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh2cu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh2cu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh3cu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh3cu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sh4cu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sh4cu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3sncu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3sncu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3kdcu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3kdcu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_m3ndcu_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_m3ndcu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tiennuoc_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tiennuoc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tienphitn_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tienphitn"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tienphimt_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tienphimt"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tienthue_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tienthue"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+        <TextView
+            android:id="@+id/id_tv_tongtien_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/lichghinuoc_hdon_tongtien"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize45" />
+
+
+        <CheckBox
+            android:id="@+id/id_cb_datra_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="false"
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white2">#FFFFFF</color>
+    <color name="background">#f8f9f8</color>
+    <color name="text">#E9EAFF</color>
+    <color name="btn_thong_tin_lien_he">#1E731E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF414A52</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="bg_view">#ADAAAD</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#33ffff00</color>
+    <color name="tab_home">#e3e3dd</color>
+    <color name="tab">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#FF414A52</color>
+    <color name="grey_ori">#A5AAA5</color>
+    <color name="grey_transparent">#22A5AAA5</color>
+    <color name="coin_bg">#2A2A2A</color>
+    <color name="pink">#FF007F</color>
+    <color name="orange">#77ffa500</color>
+    <color name="pink_delete">#FA7CDE</color>
+    <color name="fb">#3d5c98</color>
+    <color name="gg">#da4e3b</color>
+    <color name="gg_transparent">#22da4e3b</color>
+    <color name="main">#36b2af</color>
+    <color name="transparent_grey">#22000000</color>
+    <color name="bg_item_quyen">#D6E0F5</color>
+    <color name="border_item_quyen">#9DAFDB</color>
+    <color name="border_show_all_kh_in_one_quyen">#AFC1ED</color>
+    <color name="bg_tv_header_kh_in_one_quyen">#F4F4F4</color>
+    <color name="setting_title_content">#878588</color>
+    <color name="header">#3d5c98</color>
+    <color name="header_main">#0ADEB4</color>
+    <color name="bg_search">#c9c9cf</color>
+    <color name="text_color">#0000FF</color>
+    <color name="text_color_setting_lienhe">#A5AAA5</color>
+    <color name="color_finished">#3300FFBF</color>
+    <color name="bg">#5A5A5A</color>
+    <!--splash-->
+    <color name="splash_cty">#104F9D</color>
+    <!--intro-->
+    <color name="intro_text_bg">#CCFFFFFF</color>
+    <color name="intro_bottom_color">#3F51B5</color>
+    <color name="transparent_tab">#CCFFFFFF</color>
+
+    <!--<color name="bcsc_item_on">#FF31B2DE</color>
+    <color name="bcsc_item_of">#FF747474</color>-->
+    <color name="bcsc_item_on">#3156DE</color>
+    <color name="bcsc_item_of">#FFFFFF</color>
+    <color name="gcs_bg_color_common">#FCFCFC</color>
+    <color name="success">#28a745</color>
+
+</resources>

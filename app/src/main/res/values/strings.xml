@@ -1,0 +1,499 @@
+<resources>
+    <string name="donvi">HueWACO</string>
+    <string name="app_name">HueWACO CSKH</string>
+    <string name="android">Android</string>
+    <string name="tab_quyen">Quyển</string>
+    <string name="tab_search">Tìm kiếm</string>
+    <string name="tab_setting">Cài đặt</string>
+    <string name="processing">Đang xử lý...</string>
+    <string name="waiting">Waiting</string>
+    <string name="share_file_mtb">Gửi tài liệu từ HueWACO CSKH Android</string>
+    <string name="share_doc">Chia sẻ tài liệu</string>
+    <string name="nointernet">Không có kết nối internet/wifi/3G</string>
+    <!--splash-->
+    <string name="splash_cty">HueWACO</string>
+    <string name="splash_title1">Trung tâm chăm sóc khách hàng</string>
+    <string name="splash_title2">Công ty cổ phần cấp nước Thừa Thiên Huế</string>
+    <!--intro-->
+    <string name="intro_title">Ứng dụng di động chăm sóc khách hàng qua thiết bị di động của Công ty cổ phần cấp nước Thừa Thiên Huế. Hỗ trợ khách hàng cập nhật thông tin kịp thời về hóa đơn tiền nước, lịch tạm ngừng cung cấp nước, tra cứu điểm thu, thanh toán tiền nước trực tuyến,… qua thiết bị di động. Ứng dụng hoàn toàn miễn phí.</string>
+    <string name="hotline">18000036</string>
+    <string name="intro_hotro_dichvu_nuoc">Hỗ trợ các dịch vụ về nước</string>
+    <string name="khong_cap_quyen_truy_cap">Bạn đã không cấp quyền cho ứng dụng do đó không thể thực hiện được chức năng này. Bạn phải cấp quyền thì ứng dụng mới thực hiện được.</string>
+    <string name="khong_phone">Chưa cài đặt số điện thoại</string>
+    <!--login-->
+    <string name="login_title1">Để sử dụng đầy đủ các tính năng mời quý Khách hàng bấm vào nút Đăng nhập</string>
+    <string name="login_btn_dangnhap">ĐĂNG NHẬP</string>
+    <string name="login_dangky_capdien">Đăng ký cấp nước mới</string>
+    <string name="login_goi_tong_dai">Gọi tổng đài CSKH</string>
+    <string name="login_hdsd">Hướng dẫn sử dụng</string>
+    <string name="login_web_cskh">Website CSKH</string>
+    <string name="login_thongtin_ungdung">Thông tin ứng dụng</string>
+    <!--thong tin ung dung-->
+    <string name="ttud_title">Thông tin ứng dụng</string>
+    <string name="ttud_ungdung">Ứng dụng:</string>
+    <string name="ttud_hdh">Hệ điều hành:</string>
+    <string name="ttud_phienban">Phiên bản hiện tại:</string>
+    <string name="ttud_ktcapnhat">Kiểm tra cập nhật</string>
+    <!--huong dan su dung-->
+    <string name="hdsd_title">Hướng dẫn sử dụng</string>
+    <!--dang nhap username/ password-->
+    <string name="dangnhap_thongbao"><b>Mời quý khách nhập tài khoản đã có trên website chăm sóc khách hàng http://huewaco.net.vn để đăng nhập vào tài khoản</b></string>
+    <string name="dangnhap_user">Tên đăng nhập</string>
+    <string name="dangnhap_password">Mật khẩu</string>
+    <string name="dangnhap_sdt_makh">Đăng nhập bằng số điện thoại và mã khách hàng</string>
+    <!--dang nhap so dien thoai va ma khach hang-->
+    <string name="dangnhap_kichhoatungdung">KÍCH HOẠT ỨNG DỤNG</string>
+    <string name="dangnhap_thongbao1">Vui lòng nhập số điện thoại và mã khách hàng sử dụng nước. Số điện thoại là số điện thoại có trên hợp đồng hoặc là số điện thoại đã đăng ký nhận tin SMS. Mã khách hàng có trong hóa đơn tiền nước hàng tháng của quý khách. Quý khách có thể đăng ký dịch vụ cho nhiều mã khách hàng của mình.</string>
+    <string name="dangnhap_bamvaoday">Bấm vào đây</string>
+    <string name="dangnhap_sdt_dangky">Số điện thoại đã đăng ký</string>
+    <string name="dangnhap_nhap_makh">Nhập mã khách hàng hoặc mã đơn đăng ký</string>
+    <string name="dangnhap_nhap_masms">Nhập mã kích hoạt qua SMS</string>
+    <string name="dangnhap_them_makh">Thêm mã khách hàng</string>
+    <string name="dangnhap_sdt_da_dangky">Số điện thoại đã đăng ký</string>
+    <string name="dangnhap_ma_kh">Nhập mã khách hàng</string>
+    <string name="dangnhap_ma_kichhoat_sms">Nhập mã kích hoạt qua SMS</string>
+    <string name="dangnhap_them_makh_add">Thêm mã khách hàng</string>
+    <!--Tab Main-->
+    <string name="tab_thongbao">Thông báo</string>
+    <string name="tab_tracuu">Tra cứu</string>
+    <string name="tab_dichvu">Dịch vụ</string>
+    <string name="tab_caidat">Tiện ích</string>
+    <!--tab thong bao-->
+    <string name="tab_thongbao_tb_lichcatnuoc">Tạm ngừng cấp nước</string>
+    <string name="tab_thongbao_tb_tttiennuoc">Báo tiền nước</string>
+    <string name="tab_thongbao_tb_thanhtoan">Xác nhận thanh toán</string>
+    <string name="tab_thongbao_tb_notiennuoc">Nhắc nợ tiền nước</string>
+    <string name="tab_thongbao_tb_ghichiso">Thông báo ghi chỉ số</string>
+    <string name="tab_thongbao_tb_ttmatnuoc">Sự cố mất nước</string>
+    <string name="tab_thongbao_tb_khac">Các thông báo khác</string>
+    <!--tab tra cuu-->
+    <string name="tab_tracuu_lichghinuoc">Lịch ghi nước</string>
+    <string name="tab_tracuu_diemthutiennuoc">Điểm thu tiền nước</string>
+    <string name="tab_tracuu_lichcatnuoc">Lịch tạm ngừng cấp nước</string>
+    <string name="tab_tracuu_chisonuoctieuthu">Chỉ số nước tiêu thụ</string>
+    <string name="tab_tracuu_thongtinthanhtoantiennuoc">Thông tin thanh toán tiền nước</string>
+    <string name="tab_tracuu_tracuuhoadontiennuoc">Tra cứu hóa đơn tiền nước</string>
+    <string name="tab_tracuu_webcskh">Website CSKH</string>
+    <string name="tab_tracuu_lienketnganhang">Thanh toán online</string>
+    <string name="tab_tracuu_goitongdai">Gọi tổng đài</string>
+    <string name="tab_tracuu_chon">Chọn</string>
+    <string name="tab_tracuu_huy">Hủy</string>
+    <string name="tab_tracuu_khongdungdinhdang">Mời bạn chọn ngày tháng năm!</string>
+    <string name="tab_tracuu_tieude_ngan">Tiêu đề quá ngắn, bạn vui lòng nhập lại!</string>
+    <string name="tab_tracuu_noidung_ngan">Nội dung quá ngắn, bạn vui lòng nhập lại!</string>
+
+    <!--tab cai dat-->
+    <string name="tab_caidat_ttkh">Thông tin khách hàng</string>
+    <string name="tab_caidat_goitongdai">Gọi tổng đài CSKH</string>
+    <string name="tab_caidat_webcskh">Website CSKH</string>
+    <string name="tab_caidat_ttchung">Thông tin chung</string>
+    <string name="tab_caidat_ttungdung">Thông tin ứng dụng</string>
+    <string name="tab_caidat_thaydoithongtinkh">Thông tin khách hàng</string>
+    <string name="tab_caidat_unđung">Cài đặt ứng dụng</string>
+    <string name="tab_caidat_hdsd">Hướng dẫn sử dụng</string>
+    <string name="tab_caidat_doimatkhau">Đổi mật khẩu</string>
+    <string name="tab_caidat_dangxuat">Đăng xuất</string>
+    <string name="tab_caidat_dangxuat_noidung">Bạn có chắc chắn muốn đăng xuất?</string>
+    <string name="tab_caidat_dangxuat_co">Có</string>
+    <string name="tab_caidat_dangxuat_khong">Không</string>c
+    <string name="tab_caidat_dangxuat_dangxuatkhongduoc">Bạn không thể đăng xuất!</string>
+    <string name="tab_caidat_doimatkhau_khongthanhcong">Bạn đổi mật khẩu không thành công, bạn vui lòng thử lại!</string>
+    <string name="tab_caidat_doimatkhau_thanhcong">Bạn đổi mật khẩu thành công!</string>
+    <string name="tab_caidat_dangxuat_ok">Ok</string>
+    <string name="tab_caidat_laydsdiachinh">Cập nhật DS địa chính</string>
+
+    <!--tab dich vu-->
+    <string name="tab_dichvu_dkycapnuoc">Yêu cầu lắp đặt nước mới</string>
+    <string name="tab_dichvu_dkycapnuoc_nh">Yêu cầu lắp đặt nước ngắn hạn</string>
+    <string name="tab_dichvu_thaydoithongtinkh">Thay đổi thông tin khách hàng</string>
+    <string name="tab_dichvu_yeucaunangdoido">Yêu cầu thay nâng, dời, dò tìm nước chảy</string>
+    <string name="tab_dichvu_hoi_traloi">KH hỏi HueWACO trả lời</string>
+    <string name="tab_dichvu_chatzalo">Chat với HueWACO</string>
+    <string name="tab_dichvu_barcode">Mã vạch thu quầy</string>
+    <string name="tab_dichvu_barcode_title">Quý khách vui lòng trình mã vạch dưới đây cho nhân viên thu quầy lúc nộp tiền thay cho giấy báo tiền nước</string>
+    <string name="tab_dichvu_gcs">Ghi chỉ số</string>
+    <string name="tab_dichvu_bcaosuco">Báo cáo sự cố</string>
+    <string name="tab_dichvu_hddt">Hợp đồng điện tử</string>
+
+    <!--tab dich vu - thay doi thong tin-->
+    <string name="tab_dichvu_thaydoithongtin_chon_makh">Chọn mã khách hàng</string>
+    <string name="tab_dichvu_thaydoithongtin_tenkh">Tên khách hàng</string>
+    <string name="tab_dichvu_thaydoithongtin_diachi">Địa chỉ</string>
+    <string name="tab_dichvu_thaydoithongtin_dtlienhe">Điện thoại liên hệ</string>
+    <string name="tab_dichvu_thaydoithongtin_email">Email</string>
+    <string name="tab_dichvu_thaydoithongtin_lydothaydoitt">Lý do thay đổi thông tin</string>
+    <string name="tab_dichvu_thaydoithongtin_doithongtin_thanhcong">Bạn đổi thông tin khách hàng thành công!</string>
+    <string name="tab_dichvu_thaydoithongtin_doithongtin_khongthanhcong">Bạn đổi thông tin khách hàng không thành công, vui lòng thử lại!</string>
+    <!--tab dich vu - dang ky cap nuoc-->
+    <string name="tab_dichvu_dangkycapnuoc_thanhcong">Bạn đăng ký cấp nước thành công!</string>
+    <string name="tab_dichvu_dangkycapnuoc_khongthanhcong">Bạn đăng ký cấp nước không thành công, vui lòng thử lại!</string>
+    <!--tab dich vu - dang ky cap nuoc-->
+    <string name="tab_dichvu_cauhoi_thanhcong">Bạn thêm câu hỏi thành công!</string>
+    <string name="tab_dichvu_cauhoi_khongthanhcong">Bạn thêm câu hỏi không thành công, vui lòng thử lại!</string>
+    <string name="tab_dichvu_cauhoi_tieude">Mời bạn nhập tiêu đề?</string>
+    <string name="tab_dichvu_cauhoi_noidung">Mời bạn nhập câu hỏi?</string>
+    <!-- tab dich vu - lich ghi nuoc -->
+    <string name="lichghinuoc_date_from">Từ ngày</string>
+    <string name="lichghinuoc_date_to">Đến ngày</string>
+    <string name="lichghinuoc_btn_search">Tìm kiếm</string>
+    <string name="lichghinuoc_chon_makh">Chọn mã khách hàng:</string>
+    <string name="lichghinuoc_ngay_ghi">- Ngày ghi nước:</string>
+    <string name="lichghinuoc_thang">- Tháng:</string>
+    <string name="lichghinuoc_nam">- Năm:</string>
+    <string name="lichghinuoc_ky">- Kỳ:</string>
+
+    <string name="lichghinuoc_diachi">- Địa chỉ:</string>
+    <string name="lichghinuoc_tgian_lviec">- Thời gian làm việc:</string>
+    <string name="lichghinuoc_ngay_thu">- Kinh độ:</string>
+    <string name="lichghinuoc_diem_gdich">- Vĩ độ:</string>
+    <string name="lichghinuoc_dthoai">- Tên quầy:</string>
+    <string name="lichghinuoc_loai">- Mã điểm thu:</string>
+    <string name="lichghinuoc_makhuvuc">- Mã khu vực:</string>
+
+    <string name="lichghinuoc_thangnam">*Tháng %1$d Năm %1$d:</string>
+    <string name="lichghinuoc_chisodau">- Chỉ số đầu:</string>
+    <string name="lichghinuoc_chisocuoi">- Chỉ số cuối:</string>
+    <string name="lichghinuoc_tinhtien">- Khối lượng tiêu thụ:</string>
+    <string name="lichghinuoc_tieuthuthangnamtruoc">- Khối lượng tiêu thụ cùng kỳ năm trước:</string>
+    <string name="lichghinuoc_cs_ky">Kỳ</string>
+    <string name="lichghinuoc_cs_so_cto">Số công tơ</string>
+    <string name="lichghinuoc_cs_ngay_dky">Ngày đầu kỳ</string>
+    <string name="lichghinuoc_cs_ngay_cky">Ngày cuối kỳ</string>
+    <string name="lichghinuoc_cs_cu">Chỉ số cũ</string>
+    <string name="lichghinuoc_cs_moi">Chỉ số mới</string>
+    <string name="lichghinuoc_cs_sluong">Sản lượng</string>
+    <string name="lichghinuoc_cs_hsnhan">Hệ số nhân</string>
+    <string name="lichghinuoc_cs_bcs">BCS</string>
+
+    <string name="lichghinuoc_ttoan_tu_thang">Từ tháng:</string>
+    <string name="lichghinuoc_ttoan_den_thang">Đến tháng:</string>
+    <string name="lichghinuoc_ttoan_thang">Tháng</string>
+    <string name="lichghinuoc_ttoan_nam">Năm</string>
+    <string name="lichghinuoc_ttoan_ttien">Tổng tiền</string>
+    <string name="lichghinuoc_ttoan_tinhtien">KLTT</string>
+    <string name="lichghinuoc_ttoan_tthai_no">T.Toán</string>
+
+    <string name="lichghinuoc_thong_tin">*Thông tin</string>
+    <string name="lichghinuoc_chi_tiet">*Chi tiết hóa đơn:</string>
+
+    <!-- tab dich vu - hoadontienuoc -->
+    <string name="lichghinuoc_hdon_ddo">Mã điểm đo</string>
+    <string name="lichghinuoc_hdon_cso">Bộ chỉ số</string>
+    <string name="lichghinuoc_hdon_tthu">Nước tiêu thụ</string>
+    <string name="lichghinuoc_hdon_dgia">Đơn giá</string>
+    <string name="lichghinuoc_hdon_ttien">Thành tiền</string>
+    <string name="lichghinuoc_hdon_ten_khang">- Tên khách hàng:</string>
+    <string name="lichghinuoc_hdon_cto">- Số công tơ:</string>
+    <string name="lichghinuoc_hdon_ghi_chu">- Số ghi chữ:</string>
+    <string name="lichghinuoc_hdon_hdon">- ID hóa đơn:</string>
+    <string name="lichghinuoc_hdon_seri">- Số Seri:</string>
+    <string name="lichghinuoc_hdon_loai_hdon">- Loại hóa đơn:</string>
+    <string name="lichghinuoc_hdon_dien_tthu">- Nước tiêu thụ:</string>
+    <string name="lichghinuoc_hdon_so_tien">- Số tiền:</string>
+    <string name="lichghinuoc_hdon_thue">- Thuế GTGT:</string>
+    <string name="lichghinuoc_hdon_tong_tien">- Tổng tiền:</string>
+    <string name="lichghinuoc_hdon_ten_madb">- MADB:</string>
+    <string name="lichghinuoc_hdon_ten_idkh">- IDKH:</string>
+    <string name="lichghinuoc_hdon_nam">- Năm:</string>
+    <string name="lichghinuoc_hdon_thang">- Tháng:</string>
+    <string name="lichghinuoc_hdon_chisodau">- Chỉ số đầu:</string>
+    <string name="lichghinuoc_hdon_chisocuoi">- Chỉ số cuối:</string>
+    <string name="lichghinuoc_hdon_kluongthuTinhhTien">- Khối lượng tiêu thụ tính tiền:</string>
+    <string name="lichghinuoc_hdon_m3sh1">- M3SH1:</string>
+    <string name="lichghinuoc_hdon_m3sh2">- M3SH2:</string>
+    <string name="lichghinuoc_hdon_m3sh3">- M3SH3:</string>
+    <string name="lichghinuoc_hdon_m3sh4">- M3SH4:</string>
+    <string name="lichghinuoc_hdon_m3sn">- M3SN:</string>
+    <string name="lichghinuoc_hdon_m3kd">- M3KD:</string>
+    <string name="lichghinuoc_hdon_m3nd">- M3ND:</string>
+    <string name="lichghinuoc_hdon_m3sh1cu">- M3SH1CU:</string>
+    <string name="lichghinuoc_hdon_m3sh2cu">- M3SH2CU:</string>
+    <string name="lichghinuoc_hdon_m3sh3cu">- M3SH3CU:</string>
+    <string name="lichghinuoc_hdon_m3sh4cu">- M3SH4CU:</string>
+    <string name="lichghinuoc_hdon_m3sncu">- M3SNCU:</string>
+    <string name="lichghinuoc_hdon_m3kdcu">- M3KDCU:</string>
+    <string name="lichghinuoc_hdon_m3ndcu">- M3NDCU:</string>
+    <string name="lichghinuoc_hdon_tiennuoc">- Tiền nước:</string>
+    <string name="lichghinuoc_hdon_tienphitn">- Phí thoát nước:</string>
+    <string name="lichghinuoc_hdon_tienphimt">- Phí môi trường:</string>
+    <string name="lichghinuoc_hdon_tienthue">- Tiền thuế:</string>
+    <string name="lichghinuoc_hdon_tongtien">- Tổng tiền:</string>
+    <string name="lichghinuoc_hdon_datra">- Đã trả:</string>
+
+    <!--tab dich vu - dang ky cap moi-->
+    <string name="tab_dichvu_dangky_capmoi_thongtinkhachhang">Thông tin khách hàng</string>
+    <string name="tab_dichvu_dangky_capmoi_quanhuyen">Quận/Huyện</string>
+    <string name="tab_dichvu_dangky_capmoi_phuongxa">Phường/Xã</string>
+    <string name="tab_dichvu_dangky_capmoi_loaiyeucau">Loại yêu cầu</string>
+    <string name="tab_dichvu_dangky_capmoi_dausao">Những mục có dấu (*) là bắt buộc phải nhập</string>
+    <string name="tab_dichvu_dangky_capmoi_chon_tinh">Chọn công ty Điện lực cần đăng ký mua điện</string>
+    <string name="tab_dichvu_dangky_capmoi_chinhanhkhuvuc">Chi nhánh (Khu vực)</string>
+    <string name="tab_dichvu_dangky_capmoi_khang">Họ tên khách hàng (*)</string>
+    <string name="tab_dichvu_dangky_capmoi_ndungycau">Nội dung yêu cầu</string>
+    <string name="tab_dichvu_dangky_capmoi_sonha">Số nhà (*)</string>
+    <string name="tab_dichvu_dangky_capmoi_dpho">Đường phố (*)</string>
+    <string name="tab_dichvu_dangky_capmoi_dthoai">Số điện thoại (*)</string>
+    <string name="tab_dichvu_dangky_capmoi_phuong">Xã/Phường</string>
+    <string name="tab_dichvu_dangky_capmoi_email">Email</string>
+    <string name="tab_dichvu_dangky_capmoi_maudon">Mẫu đơn lắp đặt nước</string>
+    <string name="tab_dichvu_dangky_capmoi_dangky">Đăng ký</string>
+
+
+    <string name="tab_dichvu_dangky_capmoi_tinhtrang">Tình trạng sử dụng nước hiện tại</string>
+
+    <string name="tab_dichvu_dangky_capmoi_chon">(chọn ít nhất 1 loại giấy tờ)</string>
+    <string name="tab_dichvu_dangky_capmoi_yeucaulapdatnuoc">Yêu cầu lắp đặt nước mới</string>
+    <string name="tab_dichvu_dangky_capmoi_yeucaulapdatnuocmoi">Yêu cầu lắp đặt nước ngắn hạn</string>
+    <string name="tab_dichvu_dangky_capmoi_yeucauthaynang">Yêu cầu thay nâng, dời, dò tìm nước chảy</string>
+    <string name="tab_dichvu_dangky_capmoi_uyquyen">Giấy ủy quyền của các hộ sử dụng nước chung/Danh sách hộ dùng chung</string>
+    <string name="tab_dichvu_dangky_capmoi_xacnhan">Bản xác nhận đã thanh toán hết nợ tiền nước của Hộ tách mới</string>
+
+    <!--tab dich vu - thay doi cong suat-->
+    <string name="tab_dichvu_congsuat_diachi_moi">Địa chỉ mới</string>
+    <string name="tab_dichvu_congsuat_mucdich">Mục đích sử dụng:</string>
+    <string name="tab_dichvu_congsuat_vitri">Vị trí điểm đo hiện tại:</string>
+    <!--tab dich vu - cau hoi-->
+    <string name="tab_dichvu_cauhoi_tieudetrich">Tiêu đề:</string>
+    <string name="tab_dichvu_cauhoi_noidungtrich">Nội dung</string>
+
+    <!--tab dich vu - hop dong dien tu-->
+    <string name="tab_dichvu_hddt_sign">Ký xác nhận </string>
+    <string name="tab_dichvu_hddt_signrequired">Vui lòng ký trước khi xác nhận</string>
+    <string name="tab_dichvu_hddt_signrnotice">Sau khi nhập mã OTP và nhấn XÁC NHẬN ký hợp đồng, đồng nghĩa với việc Quý khách đã đọc, hiểu rõ và đồng ý các điều khoản trong hợp đồng</string>
+    <!-- tab cai dat - thong tin chung -->
+
+    <string name="tab_caidat_thong_tin_chung">Thêm mã khách hàng</string>
+    <string name="tab_caidat_ma_khang">- Mã khách hàng:</string>
+    <string name="tab_caidat_dthoai">- Điện thoại:</string>
+    <string name="tab_caidat_email">- Email:</string>
+    <string name="tab_caidat_tram">- Trạm nước:</string>
+    <string name="tab_caidat_donvi">- Đơn vị quản lý:</string>
+    <string name="tab_caidat_btn_dongy">Đồng ý</string>
+    <string name="tab_caidat_btn_boqua">Bỏ qua</string>
+    <string name="tab_caidat_title">Để thêm mã khách hàng mới bạn cần thực hiện theo 2 bước sau:\n 1.Đăng ký mã khách hàng mới trên website.
+        \n 2.Đăng nhập lại ứng dụng. \n Bạn đồng ý đăng nhập lại ứng dụng để cập nhật MKH mới?</string>
+
+    <!-- tab cai dat - doi mat khau -->
+    <string name="tab_caidat_mat_khau_cu">Mật khẩu cũ</string>
+    <string name="tab_caidat_mat_khau_moi">Mật khẩu mới</string>
+    <string name="tab_caidat_nhap_lai_mat_khau_moi">Nhập lại mật khẩu mới</string>
+
+    <string name="tab_caidat_nhap_lai_mk_cu_none">Bạn chưa nhập mật khẩu cũ!</string>
+    <string name="tab_caidat_nhap_lai_mk_moi_none">Bạn chưa nhập mật khẩu mới!</string>
+    <string name="tab_caidat_nhap_lai_re_mk_moi_none">Bạn chưa nhập lại mật khẩu mới!</string>
+    <string name="tab_caidat_nhap_lai_re_mk_moi_fail">Nhập lại mật khẩu mới chưa đúng!</string>
+    <string name="tab_caidat_nhap_lai_re_mk_cu_fail">Mật khẩu cũ chưa đúng!</string>
+
+    <string name="tab_caidat_customergroup_idkh">IDKH</string>
+    <string name="tab_caidat_customergroup_dcld">Địa chỉ lắp đặt</string>
+    <string name="tab_caidat_customergroup_tenkh">Tên KH</string>
+
+    <!-- lich cat nuoc -->
+
+    <string name="lichcat_nuoc_id">-ID:</string>
+    <string name="lichcat_nuoc_malotrinh">- Mã lộ trình:</string>
+    <string name="lichcat_nuoc_makv">- Mã khu vực:</string>
+    <string name="lichcat_nuoc_ngaybatdau">- Ngày bắt đầu:</string>
+    <string name="lichcat_nuoc_giobatdau">- Giờ bắt đầu:</string>
+    <string name="lichcat_nuoc_phutbatdau">- Phút bắt đầu:</string>
+    <string name="lichcat_nuoc_ngayketthuc">- Ngày kết thúc:</string>
+    <string name="lichcat_nuoc_gioketthuc">- Giờ kết thúc:</string>
+    <string name="lichcat_nuoc_phutketthuc">- Phút kết thúc:</string>
+    <string name="lichcat_nuoc_lydo">- Lý do:</string>
+    <!--Một số thông báo-->
+    <string name="chua_nhap_username">Bạn chưa nhập tên</string>
+    <string name="chua_nhap_pass">Bạn chưa nhập password</string>
+    <string name="dang_nhap_thanh_cong">Đăng nhập thành công</string>
+    <string name="dang_nhap_that_bai">Đăng nhập thất bại</string>
+    <string name="thong_tin_dang_nhap_khong_dung">Bạn nhập sai tên hoặc mật khẩu</string>
+    <string name="thong_tin_nguoi_dung_khong_dung">Sai thông tin người dùng hoặc người dùng này không tồn tại trong hệ thống</string>
+    <string name="het_han_su_dung">Token của bạn đã hết hạn. Bạn vui lòng tắt ứng dụng và đăng nhập lại để tiếp tục sử dụng.</string>
+    <string name="dangnhaplai">Đăng nhập lại</string>
+    <string name="diem_thu_tien_nuoc_note">Danh sách quầy thu gần với vị trí của quý khách hàng nhất, vui lòng ấn vào từng quầy thu đề xem vị trí trên Googlemaps</string>
+    <string name="not_gps_network">Bạn chưa bật GPS/wifi. Vui lòng bật GPS và chạy lại ứng dụng để tìm được những địa điểm gần nhất.</string>
+    <string name="loi_ket_noi_server">Lỗi kết nối server.</string>
+    <string name="loi_ket_noi_khuvuc">Lỗi kết nối service Khu vực.</string>
+    <string name="loi_ket_noi_quanhuyen">Lỗi kết nối service Quận Huyện.</string>
+    <string name="luu_ket_noi_quanhuyen">Lấy và lưu danh mục Quận Huyện vào Cache thành công.</string>
+    <string name="luu_ket_noi_khuvuc">Lấy và lưu danh mục Khu Vực vào Cache thành công.</string>
+    <string name="thay_doi_ttkh_sdt">Bạn chưa nhập số điện thoại</string>
+    <string name="thay_doi_ttkh_email">Thông tin email chưa hợp lệ</string>
+    <string name="viettin">VietinBank</string>
+    <string name="vietcombank">Vietcombank</string>
+    <string name="agribank">Agribank</string>
+    <string name="eximbank">Eximbank</string>
+    <string name="quandoi">NH Quân đội</string>
+    <string name="sacombank">Sacombank</string>
+    <string name="anbinh">NH An Bình</string>
+    <string name="vpbank">VP Bank</string>
+    <string name="momo">MOMO</string>
+    <string name="payoo">Payoo</string>
+    <string name="bidv">BIDV</string>
+    <string name="donga">DongA Bank</string>
+    <string name="vnptpay">VNPTPay</string>
+    <string name="airpay">AirPay</string>
+    <string name="bankplus">BankPlus</string>
+    <string name="viettelpay">ViettelPay</string>
+    <string name="zalopay">ZaloPay</string>
+    <string name="grab">Grab</string>
+    <string name="ecpay">ECPAY</string>
+    <string name="sendo">SENDO</string>
+    <string name="vinid">VinID</string>
+
+    <!--ibanking-->
+    <string name="viettinib">https://www.vietinbank.vn/update/update.html</string>
+    <string name="vietcombankib">https://www.vietcombank.com.vn/IBanking2015/55c3c0a782b739e063efa9d5985e2ab4/Account/Login</string>
+    <string name="agribankib">https://ibank.agribank.com.vn/ibank/</string>
+    <string name="eximbankib">https://www.eximbank.com.vn/home/static/cn_nganhangdientu_internetbanking.aspx</string>
+    <string name="quandoiib">https://ebanking.mbbank.com.vn/</string>
+    <string name="sacombankib">https://www.sacombank.com.vn/en/personal/Pages/internetBanking.aspx</string>
+    <string name="anbinhib">https://ebanking.abbank.vn/scripts/t24tib</string>
+    <string name="vpbankib">https://www.vpbank.com.vn/san-pham/dich-vu-ngan-hang-dien-tu/internet-banking-i2b</string>
+    <string name="momolink">https://play.google.com/store/apps/details?id=com.mservice.momotransfer</string>
+    <string name="payoolink">https://bill.payoo.vn/tra-tien-thanh-toan-hoa-don-tien-nuoc-cap-nuoc-hue</string>
+    <!---->
+    <string name="bidv_link">https://www.bidv.vn:81/iportalweb/iRetail@1</string>
+    <string name="donga_link">https://ebanking.dongabank.com.vn/khcn/#login:</string>
+
+
+    <string name="vnptpay_link">https://huewaco.com.vn/Default.aspx?cid=448&amp;aid=1</string>
+    <string name="airpay_link">https://play.google.com/store/apps/details?id=com.beeasy.toppay</string>
+    <string name="bankplus_link">https://play.google.com/store/apps/details?id=com.bplus</string>
+    <string name="viettelpay_link">https://play.google.com/store/apps/details?id=com.bplus.vtpay</string>
+    <string name="zalopay_link">https://play.google.com/store/apps/details?id=vn.com.vng.zalopay</string>
+    <string name="grab_link">https://play.google.com/store/apps/details?id=com.grabtaxi.passenger</string>
+    <string name="ecpay_link">https://play.google.com/store/apps/details?id=vn.ecpay.edong</string>
+    <string name="sendo_link">https://play.google.com/store/apps/details?id=com.sendo</string>
+    <string name="vinid_link">https://play.google.com/store/apps/details?id=com.vingroup.vinid</string>
+    <string name="zalochat_link">https://zalo.me/2635505536312269069</string>
+    <string name="tieude">Tiêu đề:</string>
+    <string name="cauhoi">Câu hỏi:</string>
+    <string name="traloi">Trả lời:</string>
+    <string name="gui_cau_hoi">Gửi câu hỏi</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="loi_xay_ra_thu_luc_khac">Có lỗi xãy ra. Vui lòng thử lại lúc khác.</string>
+    <string name="login_btn_dangky">ĐĂNG KÝ</string>
+    <string name="chua_nhap_ma_khachhang">Bạn chưa nhập mã khách hàng (IDKH)</string>
+    <string name="chua_nhap_confirm_pass">Bạn chưa nhập mật khẩu nhắc lại</string>
+    <string name="dangnhap_thongbao_dangnhap_bang_idkh">Quý khách vui lòng sử dụng mã khách hàng (IDKH - 6 ký tự) trên giấy báo tiền nước để đăng ký.</string>
+    <string name="dangnhap_nhap_username">Tên đăng nhập</string>
+    <string name="dangnhap_nhap_password">Mật khẩu</string>
+    <string name="dangnhap_nhap_lai_password">Nhập lại mật khẩu</string>
+    <string name="dangnhap_reset_password"><u>Quên mật khẩu?</u></string>
+    <!--GCS-->
+    <string name="cancel">Huỷ bỏ</string>
+    <string name="ok">OK</string>
+    <string name="test1">53453</string>
+    <string name="test2">8768876</string>
+    <string name="test3">5435g2fd</string>
+    <string name="device_hasnot_camera">Thiết bị này không hỗ trợ camera</string>
+    <string name="not_mounted">Lỗi liên kết camera.</string>
+    <string name="failed_create_folder">Không thể tạo thư mục lưu ảnh từ camera</string>
+    <string name="not_allow_access_sdcard">Bạn chưa cấp quyền để truy cập thư mục. Nên không dùng được chức năng này.</string>
+    <string name="not_allow_access_camera">Bạn chưa cấp quyền truy cập camera.  Nên không dùng được chức năng này.</string>
+    <string name="choose_gcs_number">Bạn có chắc chắn đây là số nước đúng của bạn?\nThông tin này sẽ gửi về CTY HueWaCo để xử lý.</string>
+    <string name="send_data_gcs_success">Gửi thông tin chỉ số thành công.</string>
+    <string name="water_number">chỉ số: </string>
+    <string name="number_recognized">Hãy chọn vào đúng chỉ số của bạn.</string>
+
+    <!--Bao cao su co-->
+    <string name="text_nhap_suco">Nhập thông tin sự cố</string>
+    <string name="bcsc_thongtinbatbuoc">Thông tin bắt buộc phải nhập</string>
+    <string name="bcsc_nhap_ten_ban">Tên của bạn</string>
+    <string name="bcsc_nhap_sdt_ban">Số điện thoại của bạn</string>
+    <string name="bcsc_nhap_diachi_ban">Địa chỉ của bạn</string>
+    <string name="bcsc_hdtvitrisuco">Hướng dẫn tìm vị trí sự cố</string>
+
+    <string name="chua_nhap_suco">Bạn chưa nhập nội dung sự cố</string>
+    <string name="chua_dinh_kem_anh">Bạn chưa đính kèm hình ảnh</string>
+    <string name="send_data_suco_success">Gửi thông tin sự cố thành công.</string>
+    <string name="send_data_suco_not_success_0">Lưu hình ảnh bị lỗi. Mã trả về: </string>
+    <string name="send_data_suco_not_success_2">Không lưu được dữ liệu. Mã trả về: </string>
+    <string name="send_data_suco_not_success_3">Chức năng báo cáo sự cố chỉ hoạt động từ [em]06:00–18:00[/em]. [div]Ngoài thời gian này quý khách vui lòng gọi: [b]18000036.[/b][/div] [div][em]Xin cảm ơn[/em][/div]</string>
+    <string name="not_allow_access_location">Bạn chưa cấp quyền truy cập vị trí.  Nên không dùng được chức năng này.</string>
+
+    <string name="bcsc_tieubieu">Tiêu biểu</string>
+    <string name="bcsc_daxuly">Đã xử lý</string>
+    <string name="bcsc_dangxuly">Đang xử lý</string>
+    <string name="bcsc_congdong">Tất cả tin</string>
+    <string name="bcsc_canhan">Tin tôi đăng</string>
+    <string name="bcsc_search">Tìm theo nội dung phản ảnh</string>
+
+    <string name="bcsc_title">Phản ảnh hiện trường</string>
+    <string name="bcsc_btn_guisuco">GỬI DỮ LIỆU VỀ TỔNG ĐÀI</string>
+    <string name="bcsc_btn_callsuco">GỌI TỔNG ĐÀI</string>
+
+    <string name="ko_doc_dc_text">Không đọc được chỉ số từ ảnh chụp. Vui lòng chụp một ảnh khác hoặc thử lại!</string>
+    <string name="test_base64"></string>
+    <string name="loadmore">Đang tải dữ liệu...</string>
+
+    <string name="readmore">Đọc thêm tin ...</string>
+    <string name="changed_address">Bạn đã chọn thay đổi địa chỉ!</string>
+    <string name="kh_changed_address">Bạn click trên bản đồ để chọn địa chỉ muốn thay đổi!</string>
+    <string name="error_get_location">Có lỗi xảy ra khi lấy địa chỉ, vui lòng kiểm tra lại internet hoặc bộ định vị trên thiết bị! Mã lỗi: </string>
+    <string name="idkh">IDKH</string>
+    <string name="no_response">HueWACO xin cám ơn Quý KH đã gửi thông tin về sự cố!\n\nTrân trọng.</string>
+    <string name="dichvu_gcs">Ghi chỉ số mới</string>
+    <string name="dichvu_gcs_kltt">Khối lượng tiêu thụ</string>
+    <string name="dichvu_gcs_tt">- Tổng tiền</string>
+
+    <string name="gcs_pre_ngayhientai">Ngày hiện tại</string>
+    <string name="gcs_pre_name_addr">Tên - địa chỉ KH</string>
+    <string name="gcs_pre_kyghi">Kỳ ghi: Hai tháng lẻ</string>
+    <string name="gcs_pre_kyghi_tieude">Kỳ ghi: </string>
+    <string name="gcs_pre_tinhtrangdongho_tieude">TTĐH: </string>
+    <string name="gcs_pre_trangthai">Bình thường</string>
+    <string name="gcs_pre_mdsd">MĐSD: </string>
+    <string name="gcs_pre_nk"> - Nhân khẩu: </string>
+    <string name="gcs_pre_thanghientai">Tháng hiện tại</string>
+    <string name="gcs_pre_nhapchisohientai">Nhập chỉ số hiện tại</string>
+    <string name="gcs_pre_kytruoc">Kỳ trước</string>
+    <string name="gcs_pre_csd">Chỉ số đầu</string>
+    <string name="gcs_pre_tongtien">Tổng tiền tạm tính</string>
+    <string name="gcs_pre_bangchu">Bằng chữ:</string>
+    <string name="gcs_pre_didong">Di động:</string>
+    <string name="gcs_pre_hieudonghocu">Hiệu đồng hồ cũ</string>
+    <string name="gcs_pre_kltthu">Khối lượng tiêu thụ</string>
+    <string name="gcs_pre_hinhanh">Hình ảnh</string>
+    <string name="gcs_pre_chuaxacdinh">Chưa xác định</string>
+    <string name="gcs_pre_gui_dulieu">Gửi dữ liệu</string>
+    <string name="gcs_pre_ttkh">Thông tin khách hàng</string>
+    <string name="gcs_gcs_cancel">Huỷ bỏ kết quả này!</string>
+    <string name="gcs_pre_guide">Vui lòng chụp ảnh mặt đồng hồ nước để ghi chỉ số</string>
+    <string name="gcs_pre_cannot_readimg">Ứng dụng hiện không đọc được chỉ số từ ảnh quý khách đã chụp, quý khách vui lòng chụp ảnh khác hoặc nhập tay vào ô nhập chỉ số!</string>
+    <string name="gcs_gcs_invalid_number_gcs">Chỉ số quý khác chọn không hợp lệ, vui lòng chụp ảnh khác để ứng dụng tính ra tiền nước của quí khách!</string>
+    <string name="gcs_gcs_invalid_number_api">Chỉ số quý khác chọn không hợp lệ, vui lòng kiểm tra lại!</string>
+    <string name="gcs_pre_valid_time">Không thể thực hiện. Mời quí khách kết nối internet để lấy dữ liệu!</string>
+    <string name="gcs_pre_error_tinhtien">Không thể tính được tiền nước và sản lượng tiêu thụ, lỗi trả về:  </string>
+    <string name="gcs_pre_cannot_send_kh_to_server">Xin lỗi! Đồng hồ quý khách đang nằm ngoài kỳ ghi chỉ số, vì vậy dữ liệu này sẽ không gửi được.</string>
+    <string name="dichvu_lichsu_dungnuoc">Lịch sử dùng nước</string>
+    <string name="gcs_pre_input_invalid">Chưa nhập chỉ số hoặc chỉ số không hợp lệ (số vừa nhập &lt; chỉ số đầu) nên không thể xử lý được. Vui lòng kiểm tra và thử lại!</string>
+    <string name="dichvu_finish_gcs">Click vào nút "GỬI DỮ LIỆU" bên dưới để hoàn tất!\n (Để ghi lại chỉ số, quý khách vui lòng thực hiện lại)</string>
+    <string name="dichvu_missing_img_gcs">Bạn phải chụp ảnh chỉ số đồng hồ trước khi nhấn Gửi dữ liệu!</string>
+    <string name="dichvu_finish_ok">Ghi chỉ số đã hoàn thành!</string>
+    <string name="dichvu_finish_notok">Có lỗi xảy ra khi gửi chỉ số lên server!</string>
+    <string name="dichvu_ai_error_message">\n <br /> Lỗi phản hồi từ AI: </string>
+    <string name="dichvu_4kycuoi_daxacthuc">- Đã xác thực:</string>
+    <string name="dichvu_4kycuoi_ngayxacthuc">- Ngày xác thực:</string>
+
+    <string name="dichvu_pay_via_vnpay">Thanh toán qua thẻ ngân hàng (VNPAY)</string>
+    <string name="dichvu_pay_via_vidientu">Thanh toán qua ví điện tử</string>
+    <string name="dichvu_pay_via_nganhanglienket">Thanh toán qua ngân hàng liên kết</string>
+    <string name="dichvu_pay_via_vnpay_invalid">Quý khách không thể thực hiện chức năng này!</string>
+
+    <string name="gcs_btn1">Chụp lại</string>
+    <string name="gcs_btn2">Nhập tay</string>
+    <string name="gcs_ai_can_not_read">Ứng dụng không đọc được chỉ số từ ảnh đã chụp, quý khách vui lòng chụp lại ảnh khác hoặc nhập chỉ số bằng tay</string>
+    <string name="gcs_ai_can_read">Bạn có chắc chắn đây là chỉ số đồng hồ nước hiện tại của bạn?</string>
+
+    <string name="time_out_session">Phiên của quý khách đã hết hạn, vui lòng đăng nhập lại để tiếp tục sử dụng!</string>
+    <string name="time_out_call">Để phản ánh các sự cố trong thời gian sau 18h00 - 6h00. Quý khách hàng vui lòng gọi trực tiếp tổng đài.</string>
+
+
+    <!--Common-->
+    <string name="common_guiyeucauthanhcong">Gửi yêu cầu thành công!</string>
+    <string name="common_guiyeucauthatbai">Gửi yêu cầu thất bại, vui lòng thử lại!</string>
+
+    <string name="buyer">Chủ hộ ký</string>
+    <string name="signer">Ký thay chủ hộ</string>
+</resources>

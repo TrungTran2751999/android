@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_alogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/layout_100"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/layout_275"
+                android:layout_height="@dimen/layout_275"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_launcher512_text" />
+<!--            <ImageView
+                android:layout_width="@dimen/layout_225"
+                android:layout_height="@dimen/layout_225"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_launcher512" />
+
+            <ImageView
+                android:layout_width="@dimen/layout_275"
+                android:layout_height="@dimen/layout_45"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/hue_waco_text" />-->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/layout_40"
+                android:gravity="center"
+                android:text="@string/login_title1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize45"
+                android:background="@drawable/border_bg_white"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/layout_30"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/id_btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/ic_dangnhap"
+                    android:padding="@dimen/layout_15"
+                    android:text="@string/login_btn_dangnhap"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize50"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/id_btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/ic_dangnhap"
+                android:padding="@dimen/layout_15"
+                android:text="@string/login_btn_dangky"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize50"
+                android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/layout_30"
+            android:background="@drawable/border_bg_white"
+            android:orientation="vertical">
+
+            <GridView
+                android:id="@+id/id_grid_task"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:choiceMode="singleChoice"
+                android:gravity="center"
+                android:horizontalSpacing="@dimen/layout_50"
+                android:listSelector="#00000000"
+                android:numColumns="2"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/layout_50" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

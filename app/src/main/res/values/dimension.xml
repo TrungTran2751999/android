@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- for topbar two button -->
+    <dimen name="title_size">@dimen/textSize40</dimen>
+    <dimen name="subtitle_size">@dimen/textSize35</dimen>
+    <dimen name="top_bar_two_button">@dimen/layout_150</dimen>
+    <dimen name="left_btn_height">@dimen/layout_80</dimen>
+    <dimen name="left_btn_width">@dimen/layout_80</dimen>
+    <dimen name="right_btn_height">@dimen/layout_80</dimen>
+    <dimen name="right_btn_width">@dimen/layout_80</dimen>
+
+    <!-- common -->
+    <dimen name="padding_item_list_editext_csm">10dp</dimen>
+    <dimen name="text_item_size_csm">@dimen/textSize55</dimen>
+    <dimen name="padding_item_list_textview">10dp</dimen>
+    <dimen name="padding_item_list_textview_title">10dp</dimen>
+    <dimen name="padding_item_list_textview_data">5dp</dimen>
+    <dimen name="text_item_size">@dimen/textSize45</dimen>
+    <dimen name="width_item_tv_list">@dimen/layout_500</dimen>
+    <dimen name="width_item_tv_edit">250dp</dimen>
+    <dimen name="width_item_edt_edit">0dp</dimen>
+    <dimen name="text_size_title_header_header_show_one_quyen">@dimen/textSize45</dimen>
+    <dimen name="text_size_title_header_show_one_quyen">@dimen/textSize35</dimen>
+    <dimen name="padding_item_textview_pageview">0dp</dimen>
+    <!-- man hinh nhap chi so -->
+    <dimen name="title_nhap_chi_so_width">@dimen/layout_300</dimen>
+    <!-- thong tin lien he -->
+    <dimen name="width_left">100dp</dimen>
+    <dimen name="setting_lien_he">@dimen/textSize45</dimen>
+    <dimen name="setting_lien_he_margin_left">5dp</dimen>
+    <dimen name="text_size_1">@dimen/textSize50</dimen>
+    <dimen name="text_size_title_setting">@dimen/textSize50</dimen>
+    <dimen name="text_size_content_setting">@dimen/textSize50</dimen>
+	<dimen name="border_2btn">8dp</dimen>
+	<!-- setting -->
+	<dimen name="text_size_item_setting">@dimen/textSize50</dimen>
+	<!-- title for all KH in ONE QUYEN -->
+	<dimen name="header_one_quyen_stt">@dimen/layout_200</dimen>
+	<dimen name="header_one_quyen_bcs">@dimen/layout_170</dimen>
+	<dimen name="header_one_quyen_csc">@dimen/layout_250</dimen>
+	<dimen name="header_one_quyen_csm">@dimen/layout_250</dimen>
+	<dimen name="header_one_quyen_dientthu">@dimen/layout_350</dimen>
+	<dimen name="header_one_quyen_ttrang">@dimen/layout_250</dimen>
+	<dimen name="header_one_quyen_sluong">@dimen/layout_250</dimen>
+	<dimen name="header_one_quyen_ma_ddo">@dimen/layout_450</dimen>
+	<dimen name="header_one_quyen_sl_thao">@dimen/layout_250</dimen>
+	<dimen name="header_one_quyen_tcong">@dimen/layout_300</dimen>
+	<!-- title for ALL QUYEN -->
+	<dimen name="header_all_quyen_stt">@dimen/layout_150</dimen>
+	<dimen name="header_all_quyen_quyen">@dimen/layout_190</dimen>
+	<dimen name="header_all_quyen_ky">@dimen/layout_120</dimen>
+	<dimen name="header_all_quyen_thang_nam">@dimen/layout_300</dimen>
+	<dimen name="text_size">@dimen/textSize50</dimen>
+	<dimen name="padding_edt">10dp</dimen>
+	<dimen name="padding_border">15dp</dimen>
+	<dimen name="distant_2_row">15dp</dimen>
+	<dimen name="text_size_ten_co_quan">20sp</dimen>
+
+    <dimen name="title_cs_tieuthu_width">70dp</dimen>
+
+</resources>

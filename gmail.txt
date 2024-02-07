@@ -1,0 +1,2 @@
+HueWACO.app@gmail.com/App@huewaco1909
+keytool -genkey -v -keystore huewaco.keystore -alias huewaco -keyalg RSA -keysize 2048 -validity 10000

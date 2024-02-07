@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dropDownListViewStyle">@style/mySpinnerStyle</item>
+    </style>
+
+    <style name="CustomTextViewTitle" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">@drawable/border_grey_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/title_nhap_chi_so_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+
+    <style name="CustomTextViewTitle_small" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">@drawable/border_grey_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/title_cs_tieuthu_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="CustomTextViewTitle_large" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">@drawable/border_grey_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/header_one_quyen_ma_ddo</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="CustomTextViewDetail" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">@drawable/border_grey_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">@dimen/title_nhap_chi_so_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+    <style name="CustomTextViewDetailXacThuc" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">@dimen/title_nhap_chi_so_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+    <style name="CustomTextViewDetail_small" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">@drawable/border_grey_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/title_cs_tieuthu_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="CustomTextViewDetail_large" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:background">@drawable/border_grey_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/header_one_quyen_ma_ddo</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:padding">@dimen/padding_item_list_textview_title</item>
+        <item name="android:textSize">@dimen/text_size_title_header_show_one_quyen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="mySpinnerStyle" parent="android:Widget.ListView.DropDown">
+        <item name="android:divider">@color/grey</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:actionBarStyle">@color/header</item>
+        <item name="android:actionBarTabStyle">@style/AppTheme</item>
+        <item name="android:actionBarTabTextStyle">@style/AppTheme</item>
+        <item name="android:actionButtonStyle">@style/AppTheme</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:datePickerStyle">@android:style/Widget.DatePicker</item>
+    </style>
+    <style name="galleryImagesShowDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:width">100dip</item>
+        <item name="android:height">100dip</item>
+
+    </style>
+</resources>

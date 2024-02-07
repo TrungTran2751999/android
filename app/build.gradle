@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    maven {
+        url 'https://maven.google.com/'
+        name 'Google'
+    }
+    maven {
+        url 'https://dl.bintray.com/zahid/maven/'
+    }
+}
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.huewaco.cskh.activity"
+        minSdkVersion 19//17
+        targetSdkVersion 33
+        versionCode 26
+        versionName "1.2.7"
+        multiDexEnabled true
+        useLibrary 'org.apache.http.legacy'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/androidx.exifinterface_exifinterface.version']
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.huewaco.cskh.activity'
+    androidResources {
+        noCompress 'tflite'
+    }
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation 'junit:junit:4.12'
+    //implementation project(':customeedittext')
+//    implementation project(':me.leolin.shortcutbadger')
+    implementation 'me.leolin:ShortcutBadger:1.1.22@aar'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+//    implementation 'com.android.support:support-v4:28.0.0'
+
+//    implementation 'com.android.support:asynclayoutinflater:28.0.0'
+//    implementation 'com.android.support:exifinterface:28.0.0'
+//    implementation 'com.android.support:animated-vector-drawable:28.0.0'
+//    implementation 'com.android.support:support-media-compat:28.0.0'
+
+//ok
+
+//    implementation 'com.google.firebase:firebase-messaging:11.0.4'
+//    implementation 'com.google.firebase:firebase-core:11.0.4'
+//    implementation 'com.google.android.gms:play-services-maps:11.0.4'
+//ok
+//    implementation 'com.android.support:support-v4:28.0.0'
+
+//    implementation 'com.android.support:design:28.0.0'
+//    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+//    implementation 'com.android.support:support-v4:28.0.0'
+//    implementation 'com.android.support:exifinterface:28.0.0'
+//    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+    implementation 'com.google.firebase:firebase-core:17.2.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+//    implementation 'com.google.firebase:firebase-messaging:19.0.1'
+//    implementation 'com.google.firebase:firebase-core:17.0.1'
+//    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+
+    implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:18.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision-face-model:18.0.0'
+    implementation 'com.google.firebase:firebase-ml-model-interpreter:21.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation "com.orange.dgil.trail:trail-core-lib:1.2.3"
+    implementation 'com.kyanogen.signatureview:signature-view:1.2'
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+}
+apply plugin: 'com.google.gms.google-services'

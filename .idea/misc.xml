@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CODE/HOANGNT-GIT_HUEWACO/APP_CSKH_HUEWACO/APP_CSKH_HUEWACO_ANDROID/SourceCode/app_cskh_huewaco_android/app/src/main/res/layout/frag_tab_dichvu0_dky_cap_moi.xml" value="0.25416666666666665" />
+        <entry key="..\:/CODE/HOANGNT-GIT_HUEWACO/APP_CSKH_HUEWACO/APP_CSKH_HUEWACO_ANDROID/SourceCode/app_cskh_huewaco_android/app/src/main/res/layout/item_listview_customergroup_cmb.xml" value="0.22056159420289856" />
+        <entry key="..\:/CODE/HOANGNT-GIT_HUEWACO/APP_CSKH_HUEWACO/APP_CSKH_HUEWACO_ANDROID/SourceCode/app_cskh_huewaco_android/app/src/main/res/layout/item_listview_diachinh_list.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

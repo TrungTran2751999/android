@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_dichvu_gcs_home"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_title" />
+        <LinearLayout
+            android:id="@+id/id_layoutcmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Chọn IDKH:"/>
+            <Spinner
+                android:id="@+id/id_spn_customergroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black">
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/transparent_tab"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/id_btn_gcs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border_bg_blue"
+                android:padding="@dimen/layout_30"
+                android:text="@string/dichvu_gcs"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/layout_30"
+                android:layout_marginBottom="@dimen/layout_30"
+                android:textSize="@dimen/textSize40"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/id_swp_list4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/id_rcl_list4"
+                    android:layout_width="match_parent"
+                    android:fadingEdge="horizontal"
+                    android:background="#F2F3F9"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

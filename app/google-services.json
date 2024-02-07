@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "233994084246",
+    "firebase_url": "https://huewaco-cskh-6534e.firebaseio.com",
+    "project_id": "huewaco-cskh-6534e",
+    "storage_bucket": "huewaco-cskh-6534e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233994084246:android:28c685c78d1405d0",
+        "android_client_info": {
+          "package_name": "com.huewaco.cskh.activity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233994084246-743ua1d5rl45n5e7psudavl636ikhrb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFHk98RLoiOhKf1o58WvpweSyEd6sctpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

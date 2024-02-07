@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_ttud"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent_grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+        <include layout="@layout/header_title" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom|center"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_20"
+                android:padding="@dimen/layout_30"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSize65"
+                    android:visibility="gone"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/dangnhap_kichhoatungdung"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/layout_10"
+                    android:textSize="@dimen/textSize35"
+                    android:padding="@dimen/layout_20"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/border_bg_white"
+                    android:gravity="center_horizontal"
+                    android:text="@string/dangnhap_thongbao1"/>
+                <LinearLayout
+                    android:id="@+id/id_ly_view_tt"
+                    android:layout_width="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/id_edt_sdt_da_dangky"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_sdt_da_dangky"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+                    <EditText
+                        android:id="@+id/id_edt_ma_kh"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_nhap_makh"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+                    <EditText
+                        android:id="@+id/id_edt_ma_kichhoat_sms"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/layout_120"
+                        android:layout_marginTop="@dimen/layout_30"
+                        android:background="@drawable/border_bg_user"
+                        android:hint="@string/dangnhap_nhap_masms"
+                        android:padding="@dimen/layout_15"
+                        android:textColor="@color/grey"
+                        android:textColorHint="@color/grey_ori"
+                        android:textSize="@dimen/layout_45" />
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_add_next"
+                    android:background="@color/transparent"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/textSize35"
+                    android:text="@string/dangnhap_them_makh_add"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

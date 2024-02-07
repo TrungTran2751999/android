@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/id_customergroup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_tv_checkbox_title"
+            style="@style/CustomTextViewTitle"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="@dimen/layout_90"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/id_tv_idkh_title"
+            android:layout_width="@dimen/layout_200"
+            style="@style/CustomTextViewTitle_small"
+            android:text="@string/tab_caidat_customergroup_idkh" />
+
+        <TextView
+            android:id="@+id/id_tv_dcld_title"
+            style="@style/CustomTextViewTitle_small"
+            android:layout_width="@dimen/layout_400"
+            android:text="@string/tab_caidat_customergroup_dcld" />
+
+        <TextView
+            android:id="@+id/id_tv_tenkh_title"
+            style="@style/CustomTextViewTitle"
+            android:layout_weight="1"
+            android:text="@string/tab_caidat_customergroup_tenkh" />
+
+         />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

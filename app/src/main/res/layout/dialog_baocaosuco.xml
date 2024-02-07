@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:splitMotionEvents="false">
+
+    <LinearLayout
+        android:id="@+id/id_ln_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_150"
+        android:background="@color/header">
+
+        <TextView
+            android:id="@+id/id_tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/bcsc_thongtinbatbuoc"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize55"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ly_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingRight="0dp">
+
+        <LinearLayout
+            android:id="@+id/id_ly_tenkh_vl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_20"
+                android:text="@string/bcsc_nhap_ten_ban"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize35" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_tenkh_vlname"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_10"
+                android:background="@drawable/border_bg_edit"
+                android:hint="@string/bcsc_nhap_ten_ban"
+                android:inputType="text"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ly_dt_kh_vl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_20"
+                android:text="@string/bcsc_nhap_sdt_ban"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize35" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_dtlienhe_kh_vl"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_10"
+                android:background="@drawable/border_bg_edit"
+                android:hint="@string/bcsc_nhap_sdt_ban"
+                android:inputType="phone"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ly_diachi_vanglai"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_20"
+                android:text="@string/bcsc_nhap_diachi_ban"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize35" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_diachi_vanglai"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_10"
+                android:background="@drawable/border_bg_edit"
+                android:hint="@string/bcsc_nhap_diachi_ban"
+                android:inputType="text"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/id_ly_hdtvitrisuco"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_20"
+                android:text="@string/bcsc_hdtvitrisuco"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize35" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_bcsc_hdtvitrisuco"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_10"
+                android:background="@drawable/border_bg_edit"
+                android:hint="@string/bcsc_hdtvitrisuco"
+                android:inputType="text"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/id_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="@dimen/layout_25"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/id_btn_close_dialog_bcsc_ng"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/layout_130"
+            android:layout_margin="@dimen/layout_20"
+            android:layout_weight="1"
+            android:background="@drawable/btn_text1"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize45"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/id_btn_cancel"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/layout_130"
+            android:layout_margin="@dimen/layout_20"
+            android:layout_weight="1"
+            android:background="@drawable/btn_text1"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize45"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

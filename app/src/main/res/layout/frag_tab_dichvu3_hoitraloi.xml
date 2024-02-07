@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_fr_tab_hoi_tra_loi"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent_tab"
+        android:orientation="vertical">
+
+        <include layout="@layout/header_title" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_30"
+            android:background="@drawable/border_bg_white"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_cauhoi_tieude"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_20"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/tab_dichvu_cauhoi_tieude"
+                android:layout_margin="@dimen/layout_30"
+                android:imeOptions="actionNext"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+
+            <com.customview.edittext.CustomEditText
+                android:id="@+id/id_edt_cauhoi_noidung"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/layout_120"
+                android:layout_marginTop="@dimen/layout_20"
+                android:background="@drawable/border_bg_user"
+                android:hint="@string/tab_dichvu_cauhoi_noidung"
+                android:layout_margin="@dimen/layout_30"
+                android:imeOptions="actionNext"
+                android:padding="@dimen/layout_15"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/layout_45" />
+
+            <Button
+                android:id="@+id/id_btn_close_dialog_bcsc_ng"
+                android:layout_width="@dimen/layout_300"
+                android:layout_height="@dimen/layout_120"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/layout_30"
+                android:background="@drawable/border_bg_blue"
+                android:text="@string/gui_cau_hoi"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize40"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/id_lv_list_cauhoi"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/layout_30"
+            android:orientation="vertical"></ListView>
+
+    </LinearLayout>
+
+</FrameLayout>
